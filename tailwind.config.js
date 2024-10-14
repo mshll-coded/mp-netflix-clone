@@ -1,12 +1,10 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: [
-      './public/**/*.html'
-    ],
-    safelist: []
+    content: ["./public/**/*.html"],
+    safelist: [],
   },
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {},
   },
@@ -14,4 +12,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Netflix Sans";
+  src: url("/fonts/NetflixSans-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  src: url("/fonts/NetflixSans-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  src: url("/fonts/NetflixSansMedium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.netflix-regular {
+  font-family: "Netflix Sans";
+  font-weight: normal;
+}
+
+.netflix-number {
+  font-family: Impact;
+  font-weight: normal;
+}
+
+medium .netflix-bold {
+  font-family: "Netflix Sans";
+  font-weight: bold;
+}
+
+.netflix-medium {
+  font-family: "Netflix Sans";
+  font-weight: 500;
+}
